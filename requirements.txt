@@ -1,0 +1,5 @@
+numpy>=2.5
+pillow>=13.0
+scipy>=1.18
+skia-pathops>=0.9
+fonttools>=4.68
