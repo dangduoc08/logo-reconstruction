@@ -7,7 +7,7 @@ in design-system styles.
   logo lives in its own folder under `projects/`, with only what is specific to it.
 - **Measured, not eyeballed.** Each reconstruction comes from circle and line fits on the traced
   outline, and is verified against the source with raster metrics and close-ups.
-- **Styles as data.** `styles/owlky.py` describes the nine Owlky design styles as light and dark
+- **Styles as data.** `styles/owlkei.py` describes the nine owlkei design styles as light and dark
   palettes. Any project can use them.
 
 ## Layout
@@ -21,7 +21,7 @@ logokit/             shared engine (Python, standard library except compare and 
   theme.py           style variants: gradients, outlines, hard shadows, cut-outs
   preview.py         contact sheet of every variant
 styles/
-  owlky.py           the nine Owlky styles (Soft, Swiss, Bauhaus, Brutalism, Neo-Brutalism,
+  owlkei.py           the nine owlkei styles (Soft, Swiss, Bauhaus, Brutalism, Neo-Brutalism,
                      Editorial, Minimal Mono, Corporate, Nordic), light and dark
 projects/<name>/
   source/original.svg        the traced logo (never edited)
@@ -68,7 +68,7 @@ python3 -m logokit check <project>                     # fails on a tangent brea
    only needs `ROLES`, which marks each layer as `brand`, `accent` or `detail`. The style
    defaults cover the rest.
 
-`projects/owlky/` is the worked example for every step.
+`projects/owlkei/` is the worked example for every step.
 
 ## Conventions
 

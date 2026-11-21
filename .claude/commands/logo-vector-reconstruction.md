@@ -7,7 +7,7 @@ Project: `projects/$ARGUMENTS/`. If `$ARGUMENTS` is empty, ask which project.
 Now implement the geometric reconstruction based on the approved geometry plan
 (`projects/$ARGUMENTS/analysis/geometry-plan.md`).
 
-Write `projects/$ARGUMENTS/construction.py` (model: `projects/owlky/construction.py`): a
+Write `projects/$ARGUMENTS/construction.py` (model: `projects/owlkei/construction.py`): a
 `construct(kit)` that builds every outline with `kit.build(...)` from Pieces (`arc` with a design
 circle, `line`, `bez`, `auto`, shared edges with `kit.ref(...)`, `stubs` for grazing circle
 intersections) and returns a `Mark`; plus `COMPARE` (the source's colors, background first, and
@@ -36,7 +36,7 @@ After implementation:
 5. Identify deviations and refine them. `python -m logokit check $ARGUMENTS` must report
    0 tangent breaks.
 
-Write `projects/$ARGUMENTS/analysis/reconstruction-report.md` (model: the owlky one): structure,
+Write `projects/$ARGUMENTS/analysis/reconstruction-report.md` (model: the owlkei one): structure,
 measured accuracy, deliberate deviations, corrections to the plan.
 
 Do not modify the original files.
@@ -46,5 +46,5 @@ Do not claim geometric accuracy without visual verification.
 Continue iterating until the reconstructed result closely matches the reference.
 
 Optional, when asked for themed variants: write `projects/$ARGUMENTS/theming.py` (layer roles,
-gradient axes, per-style overrides; model: the owlky one), then
+gradient axes, per-style overrides; model: the owlkei one), then
 `python -m logokit theme $ARGUMENTS` and `.venv/bin/python -m logokit preview $ARGUMENTS`.

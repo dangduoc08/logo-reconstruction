@@ -1,6 +1,6 @@
-"""The nine Owlky design styles as logo palettes, light and dark.
+"""The nine owlkei design styles as logo palettes, light and dark.
 
-Source: the owlky repository (packages/tokens/src/styles/<id>.ts, docs/styles-reference.json,
+Source: the owlkei repository (packages/tokens/src/styles/<id>.ts, docs/styles-reference.json,
 docs/reference/dashboard-lab.html), copied here so this repository stands alone.
 
 Per style:

@@ -30,7 +30,7 @@ Identify:
 7. Areas where the original design can be reconstructed with simpler geometry.
 
 Create `projects/$ARGUMENTS/analysis/geometry-plan.md` containing a detailed reconstruction plan
-(model: `projects/owlky/analysis/geometry-plan.md`), ending with numbered decisions for the owner.
+(model: `projects/owlkei/analysis/geometry-plan.md`), ending with numbered decisions for the owner.
 
 Preserve the original visual identity, silhouette, proportions and composition exactly.
 

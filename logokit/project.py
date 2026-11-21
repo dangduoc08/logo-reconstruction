@@ -52,7 +52,7 @@ class Project:
         return _load(self.dir / "theming.py", f"{self.name}_theming")
 
     def style_set(self) -> dict:
-        set_name = getattr(self.theming, "STYLE_SET", "owlky")
+        set_name = getattr(self.theming, "STYLE_SET", "owlkei")
         return _load(ROOT / "styles" / f"{set_name}.py", f"styles_{set_name}").STYLES
 
     @cached_property

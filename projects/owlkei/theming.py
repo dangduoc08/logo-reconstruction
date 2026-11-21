@@ -1,6 +1,6 @@
-"""How the owl takes a style set's colors (`python -m logokit theme owlky`)."""
+"""How the owl takes a style set's colors (`python -m logokit theme owlkei`)."""
 
-STYLE_SET = "owlky"  # styles/owlky.py
+STYLE_SET = "owlkei"  # styles/owlkei.py
 
 # Logo role of each layer of output/reconstructed.svg.
 ROLES = {
